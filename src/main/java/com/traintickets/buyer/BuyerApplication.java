@@ -13,6 +13,10 @@ public class BuyerApplication {
 
 		try {
 			Ticket testTicket = new Ticket();
+			testTicket.setId(1);
+			testTicket.setStartingStation("wroclaw-glowny");
+			testTicket.setDestination("lublin-glowny");
+			testTicket.setDepartureTime("16-07-2024_05:00");
 			User testUser = new User();
 
 			BuyerService.logInKoleo(testTicket, testUser);

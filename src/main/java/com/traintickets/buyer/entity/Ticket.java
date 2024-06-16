@@ -11,8 +11,6 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Ticket {
     private long id;
-    private String email;
-    private String password;
     private String startingStation;
     private String destination;
     private String departureTime;
